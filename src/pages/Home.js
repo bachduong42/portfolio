@@ -2,7 +2,9 @@ import Sidebar from "../components/Sidebar";
 import About from "../components/About"
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
-
+import Education from "../components/Education";
+import Interests from "../components/Interests";
+import End from "../components/End";
 function Home() {
     return (
         <div className="flex w-full h-screen">
@@ -11,6 +13,9 @@ function Home() {
                 <About></About>
                 <Projects></Projects>
                 <Skills></Skills>
+                <Education></Education>
+                <Interests></Interests>
+                <End></End>
             </div>
         </div>
     );
