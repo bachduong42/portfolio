@@ -4,7 +4,7 @@ import anh3 from "../images/anh3.jpg"
 import { MdMusicNote, MdLocalMovies, MdLocalFlorist } from "react-icons/md";
 function Interests() {
     return (
-        <div id="interest" className="w-full pl-[40px] pr-[100px] pt-[70px] flex flex-col gap-2">
+        <div id="interest" className="w-full md:pl-[40px] md:pr-[80px] pl-[20px] pr-[20px] pt-[70px] flex flex-col gap-2">
             <div className="text-[30px] text-[#34495e] font-bold ">Interests</div>
             <div className="text-[18px] text-[#34495e] ">
                 Aside from being a developer,

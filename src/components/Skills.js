@@ -1,11 +1,10 @@
 import * as FaIcon from "react-icons/fa";
-import tailwind from "../images/tailwind.svg"
 import * as DiIcon from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { PiFigmaLogo } from "react-icons/pi";
 function Skills() {
     return (
-        <div id="skill" className="w-full pl-[40px] pr-[80px] pt-[70px] flex flex-col gap-2">
+        <div id="skill" className="w-full md:pl-[40px] md:pr-[80px] pl-[20px] pr-[20px] pt-[70px] flex flex-col gap-2">
             <div className="text-[30px] text-[#34495e] font-bold ">Skills</div>
             <div className="text-[#34495e] text-[20px]">Programming Languages & Tools:</div>
             <div className="flex gap-5 items-center flex-wrap">
