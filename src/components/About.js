@@ -14,7 +14,7 @@ function About() {
             <div>
                 <div className="flex gap-3 items-center font-semibold">
                     <FaIcon.FaAddressCard className="text-[20px] text-[#34495e] " />
-                    <div className="text-[20px] text-[#34495e]  ">Enthusiast Web Developer</div>
+                    <div className="text-[20px] text-[#34495e]  ">Front-end Developer Intern</div>
                 </div>
                 <div className="flex gap-3 md:items-center font-semibold ">
                     <FaIcon.FaMapMarkedAlt className="text-[20px] text-[#34495e] " />

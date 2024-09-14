@@ -4,9 +4,9 @@ import pbl4 from "../images/pbl41.png"
 import pbl5 from "../images/pbl5.png"
 function Projects() {
     const listProject = [
-        { ava: pbl3, name: 'Accommodation Management Software', descrip: 'Build a desktop system to manage and rent rooms' },
-        { ava: pbl4, name: 'Volunteer Activities Management System', descrip: 'Build a website to manage volunteer activities' },
-        { ava: pbl5, name: 'Face recognition time attendance system', descrip: 'Build a website combined with AI to take attendance using facial recognition and timekeeping' }
+        { ava: pbl3, name: 'Accommodation Management Software', descrip: 'Build a desktop system to manage and rent rooms', link: ' https://github.com/dilys23/PBL3_Main' },
+        { ava: pbl4, name: 'Volunteer Activities Management System', descrip: 'Build a website to manage volunteer activities', link: 'https://github.com/MayMay203/PBL04' },
+        { ava: pbl5, name: 'Face recognition time attendance system', descrip: 'Build a website combined with AI to take attendance using facial recognition and timekeeping', link: 'https://github.com/dilys23/PBL5_INSOMNIA' }
     ]
     return (
         <div id="project" className="w-full md:pl-[40px] md:pr-[80px] pl-[20px] pr-[20px] md:mt-0 mt-2">
