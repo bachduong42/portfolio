@@ -9,15 +9,13 @@ function Projects() {
         { ava: pbl5, name: 'Face recognition time attendance system', descrip: 'Build a website combined with AI to take attendance using facial recognition and timekeeping' }
     ]
     return (
-        <div id="project" className="w-full pl-[40px] pr-[80px] pt-[70px]">
+        <div id="project" className="w-full md:pl-[40px] md:pr-[80px] pl-[20px] pr-[20px] md:mt-0 mt-2">
             <div className="text-[30px] text-[#34495e] font-bold ">Projects</div>
-            <div className="text-[#34495e] text-[20px]">Here are a few of my standout projects:</div>
-            <div className="grid grid-cols-2 gap-4 px-5 py-5">
+            <div className="text-[#34495e] text-[20px] md:mb-0 mb-2">Here are a few of my standout projects:</div>
+            <div className="grid md:grid-cols-2 gap-4 md:px-5 md:py-5 grid-cols-1">
                 {listProject.map((item, index) => (
                     <ProjectItem key={index} props={item}></ProjectItem>
                 ))}
-                {/* <ProjectItem></ProjectItem>
-                <ProjectItem></ProjectItem> */}
             </div>
         </div>
     );

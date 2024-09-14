@@ -1,6 +1,6 @@
 function ProjectItem({ props }) {
     return (
-        <div className="relative w-[500px] h-[250px] overflow-hidden group rounded-[7px]">
+        <div className="relative md:w-full md:h-[250px] w-full h-[190px] overflow-hidden group rounded-[7px] pb-2 md:pb-0 ">
             <div className="absolute inset-0 transition-transform duration-300 ease-in-out transform group-hover:scale-110">
                 <img
                     src={props.ava}

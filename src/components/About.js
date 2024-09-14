@@ -4,28 +4,29 @@ import { FaGithub, FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import fe from "../images/fe.png"
 import be from "../images/be.png"
 function About() {
+    console.log("about" + window.innerWidth)
     return (
-        <div id="about" className="w-full pl-[40px] pr-[80px] pt-[90px] flex flex-col gap-5">
-            <div className="flex gap-2 cursor-pointer">
-                <h1 className="text-[60px] text-[#343a40] font-extrabold">VAN THI</h1>
-                <div className="text-[60px] text-[#13C892] font-extrabold hover:text-[#ffc107]">BACH DUONG</div>
+        <div id="about" className="w-full md:pl-[40px] md:pr-[80px] py-[90px] pl-[20px] pr-[20px] flex flex-col md:gap-5 gap-5">
+            <div className="md:flex block md:gap-2 gap-0 cursor-pointer w-full md:mt-0 mt-8">
+                <div className="text-[50px] text-[#343a40] font-extrabold h-[60px]">VAN THI</div>
+                <div className="text-[50px] text-[#13C892] font-extrabold hover:text-[#ffc107] h-[60px]">BACH DUONG</div>
             </div>
             <div>
                 <div className="flex gap-3 items-center font-semibold">
                     <FaIcon.FaAddressCard className="text-[20px] text-[#34495e] " />
                     <div className="text-[20px] text-[#34495e]  ">Enthusiast Web Developer</div>
                 </div>
-                <div className="flex gap-3 items-center font-semibold">
+                <div className="flex gap-3 md:items-center font-semibold ">
                     <FaIcon.FaMapMarkedAlt className="text-[20px] text-[#34495e] " />
                     <div className="text-[20px] text-[#34495e] ">Hoa Khanh Bac, Lien Chieu, Da Nang</div>
                 </div>
             </div>
-            <div className="w-full h-[90px] bg-[#D9FFF1] rounded-[7px] p-5">
+            <div className="w-full md:h-[100px] h-[150px] bg-[#D9FFF1] rounded-[7px] px-2 flex flex-col justify-center">
                 <div className=" text-[16px] text-[#0E5A3A] ">Hi there! Thanks for visiting my profile.</div>
                 <div className=" text-[16px] text-[#0E5A3A]">As a fourth-year student with a passion for technology and web design. Eager to contribute my skills to a forward-thinking team</div>
             </div>
             <div className="flex flex-col gap-3">
-                <div className="flex gap-2 items-center">
+                <div className="flex gap-2 ">
                     <img src={fe} alt="" className="w-[30px] h-[30px]" />
                     <div>
                         <span className="text-[18px] text-[#34495e] font-semibold">Front-end:</span>
@@ -34,7 +35,7 @@ function About() {
                     </div>
 
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex gap-2">
                     <img src={be} alt="" className="w-[30px] h-[30px]" />
                     <div>
                         <span className="text-[18px] text-[#34495e] font-semibold">Back-end:</span>
