@@ -12,7 +12,7 @@ function Home() {
     return (
         <div className="flex w-full h-screen">
             <Sidebar></Sidebar>
-            <div className={`flex flex-col ${sidebarOpen ? "w-full" : 'md:ml-[20%] md:w-4/5'}`}>
+            <div className={`flex flex-col bg-white ${sidebarOpen ? "w-full" : 'md:ml-[20%] md:w-4/5'}`}>
                 <About></About>
                 <Projects></Projects>
                 <Skills></Skills>
